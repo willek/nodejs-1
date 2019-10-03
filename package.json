@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-1",
+  "version": "1.0.0",
+  "description": "learning-1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "start-dev": "nodemon app"
+  },
+  "author": "Willy",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.3"
+  }
+}
